@@ -85,8 +85,8 @@ extern "C" {
 
 #define DEFAULT_CONFIG_FILE "turnserver.conf"
 
-#define DEFAULT_CIPHER_LIST "DEFAULT"
-/* "ALL:eNULL:aNULL:NULL" */
+#define DEFAULT_CIPHER_LIST "PROFILE=SYSTEM"
+/* Fedora */
 
 #define DEFAULT_EC_CURVE_NAME "prime256v1"
 

@@ -471,7 +471,7 @@ int main(int argc, char **argv)
 		SSL_load_error_strings();
 		OpenSSL_add_ssl_algorithms();
 
-		const char *csuite = "ALL"; //"AES256-SHA" "DH"
+		const char *csuite = "PROFILE=SYSTEM"; // Fedora
 		if(use_null_cipher)
 			csuite = "eNULL";
 		else if(cipher_suite[0])
